@@ -24,6 +24,9 @@ package com.iluwatar.singleton;
 
 /**
  * Singleton class. Eagerly initialized static instance guarantees thread safety.
+ *
+ * 基于类加载实现单例模式，这是一种线程安全的实现方式。
+ *
  */
 public final class IvoryTower {
 

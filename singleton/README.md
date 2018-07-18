@@ -78,3 +78,6 @@ Use the Singleton pattern when
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
+
+## 推荐阅读
+* [你真的会写单例模式吗——Java实现](http://www.importnew.com/18872.html)

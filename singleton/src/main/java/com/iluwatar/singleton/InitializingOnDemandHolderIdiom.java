@@ -23,17 +23,27 @@
 package com.iluwatar.singleton;
 
 /**
+ * 惰性加载单例模式
+ *
  * The Initialize-on-demand-holder idiom is a secure way of creating a lazy initialized singleton
  * object in Java.
+ *
+ * The Initialize-on-demand-holder是一种安全的方式去创建延迟的单例对象。
  * <p>
  * The technique is as lazy as possible and works in all known versions of Java. It takes advantage
  * of language guarantees about class initialization, and will therefore work correctly in all
  * Java-compliant compilers and virtual machines.
+ *
+ * 这种惰性加载技术适合于现有的所有的JAVA版本中。它利用了JAVA语言的特征来保证了对象的初始化，并且正确的运行在所有的JAVA编译器和jvm中。
  * <p>
  * The inner class is referenced no earlier (and therefore loaded no earlier by the class loader) than
  * the moment that getInstance() is called. Thus, this solution is thread-safe without requiring special
  * language constructs (i.e. volatile or synchronized).
  *
+ * 内部类的初始化是延迟的，外部类初始化时不会初始化内部类，只有仅仅到有外部方法调用才会去加载内部类，这种解决办法是线程安全的，
+ * 并且不需要依赖其它特殊的实现方式，比如说volatile，synchronized等。
+ *
+ * 推荐阅读：[并发环境下延迟加载Singleton实例的终极方案：Initialization-on-demand holder idiom](https://blog.csdn.net/lzhang616/article/details/41284985)
  */
 public final class InitializingOnDemandHolderIdiom {
 

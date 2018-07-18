@@ -24,6 +24,8 @@ package com.iluwatar.singleton;
 
 /**
  * Double check locking
+ *
+ * 双重检验锁模式
  * <p>
  * http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html
  * <p>
