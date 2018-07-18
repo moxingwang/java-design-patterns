@@ -22,6 +22,8 @@ Reusing design patterns helps to prevent subtle issues that can cause major
 problems, and it also improves code readability for coders and architects who
 are familiar with the patterns.
 
+### 结合[史上最全设计模式导学目录（完整版）](https://blog.csdn.net/lovelion/article/details/17517213)学习和理解
+
 # Getting started
 
 Before you dive into the material, you should be familiar with various
@@ -52,9 +54,9 @@ This project is licensed under the terms of the MIT license.
 
 - 简单工厂【】：一个工厂类根据传入的参量决定创建出那一种产品类的实例。
 
-- 工厂方法【】：定义一个创建对象的接口，让子类决定实例化那个类。
+- 工厂方法【factory-method】：定义一个创建对象的接口，让子类决定实例化那个类。
 
-- 抽象工厂【】：创建相关或依赖对象的家族，而无需明确指定具体类。
+- 抽象工厂【abstract-factory】：创建相关或依赖对象的家族，而无需明确指定具体类。
 
 - 建造者模式【】：封装一个复杂对象的构建过程，并可以按步骤构造。
 
