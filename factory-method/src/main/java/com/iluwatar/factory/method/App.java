@@ -32,6 +32,9 @@ import org.slf4j.LoggerFactory;
  * This is done by creating objects via calling a factory method either specified in an interface
  * and implemented by child classes, or implemented in a base class and optionally overridden by
  * derived classes—rather than by calling a constructor.
+ *
+ * 工厂方法是一种创造性的设计模式，它使用工厂方法来处理创建对象的问题，而不指定将要创建的对象的确切类。
+ * 这是通过调用接口中指定的工厂方法创建对象来完成的由子类实现，或在基类中实现，并可选择重写派生类 - 而不是通过调用构造函数。
  * <p>
  * In this Factory Method example we have an interface ({@link Blacksmith}) with a method for
  * creating objects ({@link Blacksmith#manufactureWeapon}). The concrete subclasses (

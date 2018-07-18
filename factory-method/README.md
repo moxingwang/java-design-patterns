@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Factory Method
+title: 工厂模式：工厂方法
 folder: factory-method
 permalink: /patterns/factory-method/
 categories: Creational
@@ -13,19 +13,29 @@ tags:
 ## Also known as
 Virtual Constructor
 
+虚拟构造
+
 ## Intent
 Define an interface for creating an object, but let subclasses
 decide which class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
+
+定义用于创建对象的接口，但是让子类决定要实例化哪个类。 工厂方法允许类将实例化推迟到子类。
 
 ## Explanation
 Real world example
 
 > Blacksmith manufactures weapons. Elves require Elvish weapons and orcs require Orcish weapons. Depending on the customer at hand the right type of blacksmith is summoned.
 
+> 铁匠制造武器。 精灵需要精灵武器和兽人需要兽人武器。 根据手头的顾客，召唤正确类型的铁匠。
+
 In plain words
 
+坦白的说
+
 > It provides a way to delegate the instantiation logic to child classes.
+
+> 它提供了一种将实例化逻辑委托给子类的方法
 
 Wikipedia says
 
@@ -62,12 +72,16 @@ blacksmith.manufactureWeapon(WeaponType.AXE);
 // Elvish weapons are created
 ```
 
-## Applicability
+## Applicability 应用场景
 Use the Factory Method pattern when
 
 * a class can't anticipate the class of objects it must create
+* 一个类无法预测它必须创建的对象的类
 * a class wants its subclasses to specify the objects it creates
+* 一个类想让它的子类指定它创建的对象
 * classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate
+* 类将责任委派给几个助手子类之一，并且您希望本地化知道哪个辅助子类是委托的。
+
 
 ## Presentations
 

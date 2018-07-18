@@ -25,7 +25,8 @@ package com.iluwatar.factory.method;
 /**
  * 
  * The interface containing method for producing objects.
- * 
+ *
+ * Blacksmith{铁匠}
  */
 public interface Blacksmith {
 
