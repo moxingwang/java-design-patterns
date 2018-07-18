@@ -25,6 +25,8 @@ package com.iluwatar.factorykit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.function.Consumer;
+
 /**
  * Factory-kit is a creational pattern which defines a factory of immutable content
  * with separated builder and factory interfaces to deal with the problem of
@@ -54,6 +56,7 @@ public class App {
       builder.add(WeaponType.SPEAR, Spear::new);
       builder.add(WeaponType.BOW, Bow::new);
     });
+
     Weapon axe = factory.create(WeaponType.AXE);
     LOGGER.info(axe.toString());
   }

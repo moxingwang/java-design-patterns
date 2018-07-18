@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Abstract Factory
+title: 工厂模式：抽象工厂
 folder: abstract-factory
 permalink: /patterns/abstract-factory/
 categories: Creational
@@ -11,20 +11,25 @@ tags:
 ---
 
 ## Also known as
-Kit
+Kit 工具箱
 
 ## Intent
 Provide an interface for creating families of related or dependent
 objects without specifying their concrete classes.
+
+提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类。
 
 ## Explanation
 Real world example
 
 > To create a kingdom we need objects with common theme. Elven kingdom needs an Elven king, Elven castle and Elven army whereas Orcish kingdom needs an Orcish king, Orcish castle and Orcish army. There is a dependency between the objects in the kingdom.
 
+> 要创建一个王国，我们需要具有共同主题的对象。精灵王国需要一个精灵王，精灵城堡和精灵军队，而兽人王国需要一个兽人国王，兽人城堡和兽人军队。王国中的物体之间存在依赖关系。
+
 In plain words
 
 > A factory of factories; a factory that groups the individual but related/dependent factories together without specifying their concrete classes.
+
 
 Wikipedia says
 
