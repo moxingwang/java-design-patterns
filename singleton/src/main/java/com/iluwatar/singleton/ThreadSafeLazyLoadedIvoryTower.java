@@ -19,6 +19,8 @@
 package com.iluwatar.singleton;
 
 /**
+ * 懒汉模式
+ *
  * Thread-safe Singleton class. The instance is lazily initialized and thus needs synchronization
  * mechanism.
  *
@@ -30,7 +32,7 @@ public final class ThreadSafeLazyLoadedIvoryTower {
   private static ThreadSafeLazyLoadedIvoryTower instance;
 
   private ThreadSafeLazyLoadedIvoryTower() {
-    // protect against instantiation via reflection
+    // protect against instantiation via reflection{防止通过反射再次实例化}
     if (instance == null) {
       instance = this;
     } else {

@@ -25,11 +25,13 @@ package com.iluwatar.singleton;
 /**
  * Double check locking
  *
- * 双重检验锁模式
+ * 双重检验锁模式(线程安全，基于synchronized和volatile实现)
  * <p>
  * http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html
  * <p>
  * Broken under Java 1.4.
+ *
+ * 这种写法在JAVA 1.4以及1.4之前都是不支持的（主要原因在于volatile语义）。
  *
  * @author mortezaadi@gmail.com
  */
@@ -54,7 +56,7 @@ public final class ThreadSafeDoubleCheckLocking {
    */
   public static ThreadSafeDoubleCheckLocking getInstance() {
     // local variable increases performance by 25 percent
-    // Joshua Bloch "Effective Java, Second Edition", p. 283-284
+    // Joshua Bloch "Effective Java, Second Edition", p. 283-284l
     
     ThreadSafeDoubleCheckLocking result = instance;
     // Check if singleton instance is initialized. If it is initialized then we can return the instance.
