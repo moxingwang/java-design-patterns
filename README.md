@@ -60,7 +60,7 @@ This project is licensed under the terms of the MIT license.
 
 - 建造者模式【】：封装一个复杂对象的构建过程，并可以按步骤构造。
 
-- 原型模式【】：通过复制现有的实例来创建新的实例。
+- 原型模式【prototype】：通过复制现有的实例来创建新的实例。
 
 
 

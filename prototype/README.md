@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Prototype
+title: Prototype 原型模式
 folder: prototype
 permalink: /patterns/prototype/
 categories: Creational
