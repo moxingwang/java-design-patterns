@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Composite
+title: Composite 组合模式
 folder: composite
 permalink: /patterns/composite/
 categories: Structural
@@ -14,6 +14,9 @@ tags:
 Compose objects into tree structures to represent part-whole
 hierarchies. Composite lets clients treat individual objects and compositions
 of objects uniformly.
+
+将对象组合成树结构以表示部分整体层次结构。 组合允许客户端统一处理单个对象和对象组合。
+
 
 ## Explanation
 
