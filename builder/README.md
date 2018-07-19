@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Builder
+title: Builder 建造者模式
 folder: builder
 permalink: /patterns/builder/
 categories: Creational
