@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Decorator
+title: Decorator 装饰模式
 folder: decorator
 permalink: /patterns/decorator/
 categories: Structural
