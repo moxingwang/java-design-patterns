@@ -197,3 +197,6 @@ Use the Bridge pattern when
 ## Credits
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+
+## 推荐阅读
+* [桥接模式和适配器模式的区别](https://blog.csdn.net/xiefangjin/article/details/51056411)

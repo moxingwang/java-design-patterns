@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 
- * Hammer
+ * Hammer 铁锤
  *
  */
 public class Hammer implements Weapon {
