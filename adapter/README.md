@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: Adapter
+title: Adapter 适配器模式
 folder: adapter
 permalink: /patterns/adapter/
 categories: Structural
@@ -17,6 +17,8 @@ Wrapper
 Convert the interface of a class into another interface the clients
 expect. Adapter lets classes work together that couldn't otherwise because of
 incompatible interfaces.
+
+将类的接口转换为客户端的另一个期望接口。适配器允许类一起工作，否则会不兼容接口。
 
 ## Explanation
 
